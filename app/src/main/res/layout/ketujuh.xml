@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/android_7"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimary"
+
+    >
+
+    <View
+        android:id="@+id/rectangle_4"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_alignStart="@+id/rectangle_4"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/ic_arrow_back_black_24dp" />
+
+    <TextView
+        android:id="@+id/kelola_jaja"
+        android:layout_width="150dp"
+        android:layout_height="19dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="14dp"
+        android:layout_toEndOf="@+id/back"
+        android:gravity="top"
+        android:text="@string/kelola_jaja"
+        android:textAppearance="@style/kelola_jaja" />
+
+    <View
+        android:id="@+id/ellipse_2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="69dp"
+        android:background="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/bubur_kacan"
+        android:layout_width="89dp"
+        android:layout_height="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="113dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="86dp"
+        android:text="@string/bubur_kacan"
+        android:textAppearance="@style/bubur_kacan"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/rp_15_000"
+        android:layout_width="65dp"
+        android:layout_height="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="113dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="104dp"
+        android:text="@string/rp_15_000"
+        android:textAppearance="@style/rp_15_000"
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/ellipse_3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="150dp"
+        android:background="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/bubur_kacan2"
+        android:layout_width="89dp"
+        android:layout_height="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="113dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="167dp"
+        android:text="@string/bubur_kacan"
+        android:textAppearance="@style/bubur_kacan2"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/rp_15_0002"
+        android:layout_width="65dp"
+        android:layout_height="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="113dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="185dp"
+        android:text="@string/rp_15_000"
+        android:textAppearance="@style/rp_15_0002"
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/ellipse_4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="231dp"
+        android:background="@color/colorAccent" />
+
+
+
+    <TextView
+        android:id="@+id/bubur_kacan3"
+        android:layout_width="89dp"
+        android:layout_height="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="113dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="248dp"
+        android:text="@string/bubur_kacan"
+        android:textAppearance="@style/bubur_kacan3"
+        android:gravity="top"
+        />
+    <TextView
+        android:id="@+id/rp_15_0003"
+        android:layout_width="65dp"
+        android:layout_height="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="113dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="266dp"
+        android:text="@string/rp_15_000"
+        android:textAppearance="@style/rp_15_0003"
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/ellipse_5"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="312dp"
+        android:background="@color/colorAccent" />
+
+
+    <TextView
+        android:id="@+id/bubur_kacan4"
+        android:layout_width="89dp"
+        android:layout_height="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="113dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="329dp"
+        android:text="@string/bubur_kacan"
+        android:textAppearance="@style/bubur_kacan4"
+        android:gravity="top"
+        />
+    <TextView
+        android:id="@+id/rp_15_0004"
+        android:layout_width="65dp"
+        android:layout_height="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="113dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="347dp"
+        android:text="@string/rp_15_000"
+        android:textAppearance="@style/rp_15_0004"
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/ellipse_6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="393dp"
+        android:background="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/bubur_kacan5"
+        android:layout_width="89dp"
+        android:layout_height="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="113dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="410dp"
+        android:text="@string/bubur_kacan"
+        android:textAppearance="@style/bubur_kacan5"
+        android:gravity="top"
+        />
+    <TextView
+        android:id="@+id/rp_15_0005"
+        android:layout_width="65dp"
+        android:layout_height="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="113dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="428dp"
+        android:text="@string/rp_15_000"
+        android:textAppearance="@style/rp_15_0005"
+        android:gravity="top"
+        />
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/ellipse_6"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="142dp"
+        android:layout_toEndOf="@+id/kelola_jaja"
+        android:background="@drawable/image9plus" />
+
+
+</RelativeLayout>

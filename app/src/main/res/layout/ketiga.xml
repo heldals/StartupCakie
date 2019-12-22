@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android - 3 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/android_3"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimary">
+    <!-- Ellipse 1 -->
+
+    <View
+        android:id="@+id/ellipse_1"
+        android:layout_width="174dp"
+        android:layout_height="172dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="66dp"
+        android:background="@drawable/ellipse_1" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/ellipse_1"
+        android:layout_marginTop="214dp"
+        android:backgroundTint="@color/colorAccent"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Email"
+        android:textColor="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/ellipse_1"
+        android:layout_marginTop="301dp"
+        android:backgroundTint="@color/colorAccent"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Password"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/ellipse_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="434dp"
+        android:text="MASUK"
+        android:background="#C5F3C7"/>
+</RelativeLayout>

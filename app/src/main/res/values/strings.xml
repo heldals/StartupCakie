@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Cakie</string>
+    <string name="masuk">
+
+MASUK
+</string>
+    <string name="daftar_seka">
+
+DAFTAR SEKARANG
+</string>
+    <string name="masukan_dat">
+
+Masukan Data Diri Anda
+</string>
+    <string name="daftar">
+
+Daftar
+</string>
+    <!-- strings.xml -->
+    <string name="beranda">
+
+Beranda
+</string>
+    <string name="penjualan">
+
+Penjualan
+</string>
+    <string name="des_2019">
+
+19 Des 2019
+</string>
+    <string name="rp_150_000">
+
+Rp. 150.000
+</string>
+    <string name="kelola_jaja">
+
+Kelola Jajanan Pasar
+</string>
+
+    <string name="jajanan_pas">
+
+Jajanan Pasar masih kosong
+</string>
+
+    <string name="klik_tambah">
+
+Klik Tambah untuk menambahkan\nJajanan Pasar
+</string>
+
+    <string name="tambah">
+
+Tambah
+</string>
+    <string name="nama_produk">
+        Nama Produk
+    </string>
+    <string name="kelola_jajan">
+
+Kelola Jajanan Pasar
+</string>
+    <string name="bubur_kacan">
+
+Bubur kacang ijo
+</string>
+    <string name="rp_15_000">
+
+Rp.15.000
+</string>
+
+</resources>
+
+

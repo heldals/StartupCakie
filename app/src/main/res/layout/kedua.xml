@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!-- Android - 2 -->
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/android_2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/android_2"
+        >
+
+        <!-- Rectangle 4 -->
+    <!-- Masukan Data Diri Anda -->
+    <!-- Group 4 -->
+
+    <!-- image 1 -->
+
+        <View
+            android:id="@+id/rectangle_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="-43dp"
+            android:background="@color/colorPrimary"
+            android:layout_marginLeft="0dp" />
+
+        <View
+        android:id="@+id/rectangle_4"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/masukan_dat"
+        android:layout_width="172dp"
+        android:layout_height="19dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="109dp"
+        android:backgroundTint="@color/colorAccent"
+        android:gravity="top"
+        android:text="@string/masukan_dat"
+        android:textAppearance="@style/masukan_dat" />
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/masukan_dat"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_marginTop="124dp"
+        android:backgroundTint="@color/colorAccent"
+        android:clickable="false"
+        android:ems="12"
+        android:foregroundTint="@color/colorAccent"
+        android:inputType="textPersonName"
+        android:text="Nama Pemilik"
+        android:textColor="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/editText"
+        android:layout_marginTop="94dp"
+        android:backgroundTint="@color/colorAccent"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Email"
+        android:textColor="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/masukan_dat"
+        android:layout_marginTop="320dp"
+        android:backgroundTint="@color/colorAccent"
+        android:ems="10"
+        android:text="Password"
+        android:textColor="@color/colorAccent"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/masukan_dat"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="507dp"
+        android:background="#C5F3C7"
+        android:text="DAFTAR"
+        android:textAlignment="center" />
+
+    <!-- Daftar -->
+
+<!--    <View-->
+<!--        android:id="@+id/image_1"-->
+<!--        android:layout_width="14dp"-->
+<!--        android:layout_height="1dp"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginStart="14dp"-->
+<!--        android:layout_marginTop="26dp"-->
+<!--        android:layout_marginEnd="40dp"-->
+<!--        android:layout_toStartOf="@+id/daftar"-->
+<!--        android:background="@drawable/ic_arrow_back_black_24dp" />-->
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_alignStart="@+id/rectangle_4"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/ic_arrow_back_black_24dp" />
+
+    <TextView
+        android:id="@+id/daftar"
+        android:layout_width="45dp"
+        android:layout_height="19dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="14dp"
+        android:layout_toEndOf="@+id/back"
+        android:gravity="top"
+        android:text="@string/daftar"
+        android:textAppearance="@style/daftar" />
+    <!--
+      Font family: Roboto
+      Line height: 19sp
+      (identical to box height)
+    -->
+</RelativeLayout>
