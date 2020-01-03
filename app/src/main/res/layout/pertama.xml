@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/android_1"
     android:layout_width="fill_parent"
@@ -8,16 +9,6 @@
     tools:context=".MainActivity">
     <!-- Ellipse 1 -->
     <!-- Rectangle 2 -->
-
-    <View
-        android:id="@+id/ellipse_1"
-        android:layout_width="174dp"
-        android:layout_height="172dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="124dp"
-        android:layout_marginTop="84dp"
-        android:background="#C5F3C7" />
 
     <Button
         android:id="@+id/button1"
@@ -46,6 +37,13 @@
         android:text="DAFTAR SEKARANG"
         android:textAlignment="center"
         android:onClick="DAFTARSEKARANG"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/logo" />
 
 
     <!-- MASUK -->

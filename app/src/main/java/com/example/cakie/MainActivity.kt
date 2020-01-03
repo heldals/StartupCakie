@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.pertama)
+
     }
 
     fun DAFTARSEKARANG(view: View) {
@@ -18,8 +19,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun MASUK(view: View) {
-        val intent = Intent(this, KetigaActivity::class.java)
+        val intent = Intent(this,KetigaActivity::class.java)
         startActivity(intent);
+
     }
+
 
 }

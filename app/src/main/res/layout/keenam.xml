@@ -16,7 +16,7 @@
         android:background="@color/colorAccent" />
 
     <Button
-        android:id="@+id/back"
+        android:id="@+id/back_3"
         android:layout_width="23dp"
         android:layout_height="23dp"
         android:layout_alignStart="@+id/rectangle_4"

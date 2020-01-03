@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "58896292923",
+    "firebase_url": "https://cakie-9ffed.firebaseio.com",
+    "project_id": "cakie-9ffed",
+    "storage_bucket": "cakie-9ffed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58896292923:android:069d852fd17e03df8ed01e",
+        "android_client_info": {
+          "package_name": "com.example.cakie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58896292923-nte3mudeo5ddib6ds053ehjflj6p306f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cakie",
+            "certificate_hash": "b576fa4b4ce1a69c8163b78b7ad62d1e87a7b8d0"
+          }
+        },
+        {
+          "client_id": "58896292923-402n9n60id3e1omf34eqfi7m4oefe0am.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjtUfRDaCfFD3CxhKDD3DXUQXHIehm5-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58896292923-402n9n60id3e1omf34eqfi7m4oefe0am.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
